@@ -1,0 +1,89 @@
+body, div, form, input, p{ 
+    padding:0;
+    margin-TOP:0;}
+
+:focus {outline:none}
+
+body,
+input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+p {
+    font-size: 12px;
+    width: 170px;
+    display: inline-block;
+    margin-left: -3px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #4c4c4c;
+    text-align: center;
+    padding-top: 10px;
+    font-family: system-ui;
+    margin-bottom: 10px;
+}
+
+.testbox {
+    margin: 300px auto;
+    width: 343px; 
+    padding-bottom: 50px;
+    border-radius: 8px/7px; 
+    background-color: #ebebeb; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+}
+form{
+    margin: 0 30px;
+}
+
+hr{
+    color: #a9a9a9;
+    opacity: 0.3;
+}
+
+input[type=text],input[type=password]{
+    width: 285px; 
+    height: 39px; 
+    border-radius: 4px 4px 4px 4px/5px 5px 4px 4px; 
+    background-color: #fff; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 13px; 
+    padding-left: 10px;
+}
+
+a{
+    font-size: 15px;
+    margin-left: 3px;
+    color: #4c4c4c;
+}
+
+input.buttonRegister, input.buttonLogin 
+{
+    width: 100px;
+    height: 39px;
+    color: white;
+    border-style: none;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 5px; 
+    background-color: #3a57af; 
+    position: relative;
+}
+input.buttonRegister 
+{
+    margin-left: 19px;
+}
+input.buttonLogin 
+{
+    margin-left: 43px;
+}
+input.buttonRegister:hover, input.buttonLogin:hover 
+{
+    background-color:#2e458b;
+}
